@@ -1,5 +1,5 @@
 """
-SAIL Steel Defect Classification Dashboard
+Steel Defect Classification Dashboard
 ==========================================
 Run: streamlit run app.py
 Make sure to run analysis.py first to generate model & charts.

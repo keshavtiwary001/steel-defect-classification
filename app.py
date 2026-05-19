@@ -411,7 +411,7 @@ elif page == "📁 Upload & Analyze":
 # ─── FOOTER ────────────────────────────────────────────────
 st.markdown("---")
 st.markdown(
-    "<small style='color:#4a6a8a'>SAIL Internship Project · Steel Defect Classification · "
-    "Dataset:ML Repository (Steel Plates Faults) · Model: Random Forest Classifier</small>",
+    "<small style='color:#4a6a8a'>Steel Defect Classification · "
+    "Dataset: ML Repository (Steel Plates Faults) · Model: Random Forest Classifier</small>",
     unsafe_allow_html=True
 )

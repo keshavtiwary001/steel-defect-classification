@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 
 # ─── PAGE CONFIG ───────────────────────────────────────────
 st.set_page_config(
-    page_title="SAIL Steel Defect Classifier",
+    page_title="Steel Defect Classifier",
     page_icon="🔩",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -159,7 +159,7 @@ with st.sidebar:
     st.markdown("**Steel Defect Classification**")
     st.markdown("---")
     st.markdown("**Dataset**")
-    st.markdown("UCI Steel Plates Faults  \n1,941 samples · 27 features · 7 defect types")
+    st.markdown("Steel Plates Faults  \n1,941 samples · 27 features · 7 defect types")
     st.markdown("---")
     st.markdown("**Defect Types**")
     defect_info = {
@@ -180,8 +180,8 @@ with st.sidebar:
 # ─── HEADER ────────────────────────────────────────────────
 st.markdown("""
 <div class="header-box">
-    <p class="header-title">🔩 SAIL Steel Defect Classification System</p>
-    <p class="header-sub">Quality Intelligence Dashboard · Internship Project · UCI Steel Plates Faults Dataset</p>
+    <p class="header-title">🔩 Steel Defect Classification System</p>
+    <p class="header-sub">Quality Intelligence Dashboard</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -412,6 +412,6 @@ elif page == "📁 Upload & Analyze":
 st.markdown("---")
 st.markdown(
     "<small style='color:#4a6a8a'>SAIL Internship Project · Steel Defect Classification · "
-    "Dataset: UCI ML Repository (Steel Plates Faults) · Model: Random Forest Classifier</small>",
+    "Dataset:ML Repository (Steel Plates Faults) · Model: Random Forest Classifier</small>",
     unsafe_allow_html=True
 )
